@@ -1,0 +1,377 @@
+{
+  "nav": {
+    "notes": "Notes",
+    "projects": "Projects",
+    "services": "Services",
+    "resources": "Resources",
+    "clips": "External Refs",
+    "localDocs": "Local Docs",
+    "localMedia": "Local Media",
+    "news": "News",
+    "tags": "Tags",
+    "cooperation": "Cooperation"
+  },
+  "actions": {
+    "newNote": "New Note",
+    "newProject": "New Project",
+    "newService": "New Service",
+    "newResource": "New Resource",
+    "newClip": "New Clip",
+    "newTag": "New Tag"
+  },
+  "user": {
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "topbar": {
+    "home": "Homepage",
+    "show": "Show topbar",
+    "hide": "Hide topbar",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode"
+  },
+  "menu": {
+    "myNotes": "My Notes",
+    "tags": "Tags",
+    "publicNotes": "Public Notes",
+    "homepage": "Homepage"
+  },
+  "confirm": {
+    "logout": "Are you sure you want to log out?",
+    "logoutTitle": "Confirm",
+    "confirmBtn": "OK",
+    "cancelBtn": "Cancel"
+  },
+  "messages": {
+    "loggedOut": "Logged out",
+    "profileWip": "Profile feature coming soon"
+  },
+  "lang": {
+    "toggle": "中",
+    "zh": "Chinese",
+    "en": "English"
+  },
+  "login": {
+    "titleLogin": "Login",
+    "titleRegister": "Register",
+    "welcome": "Welcome back",
+    "createAccount": "Create your account",
+    "usernamePlaceholder": "Username",
+    "emailPlaceholder": "Email (optional)",
+    "passwordPlaceholder": "Password",
+    "confirmPasswordPlaceholder": "Confirm password",
+    "submitLogin": "Log in",
+    "submitRegister": "Register",
+    "noAccount": "No account? Sign up",
+    "hasAccount": "Have an account? Log in",
+    "usernameRequired": "Please enter your username",
+    "usernameLength": "Username must be 3–50 characters",
+    "emailFormat": "Please enter a valid email address",
+    "passwordRequired": "Please enter your password",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Please confirm your password",
+    "passwordMismatch": "Passwords do not match",
+    "loginSuccess": "Logged in",
+    "loginFailed": "Login failed, please check your credentials",
+    "registerSuccess": "Registration successful",
+    "registerFailed": "Registration failed"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "search": "Search",
+    "loading": "Loading...",
+    "submit": "Submit",
+    "edit": "Edit",
+    "view": "View",
+    "create": "New",
+    "noData": "No data"
+  },
+  "workspace": {
+    "settings": {
+      "title": "Site Settings",
+      "siteName": "Site Name",
+      "logo": "Logo",
+      "save": "Save Settings",
+      "feishu": "Feishu Integration",
+      "feishuAppId": "App ID",
+      "feishuAppSecret": "App Secret"
+    },
+    "notes": {
+      "new": "New Note",
+      "title": "Title",
+      "translate": "Translate to English",
+      "delete": "Delete Note"
+    },
+    "resources": {
+      "title": "Resources",
+      "addFile": "Add File",
+      "addFolder": "Add Folder"
+    }
+  },
+  "site": {
+    "nav": {
+      "home": "Home",
+      "notes": "Notes",
+      "projects": "Projects",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "header": {
+      "login": "Login",
+      "goToApp": "Go to App",
+      "logout": "Logout"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Independent Developer · AI-Powered",
+      "title": "Build your product<br>faster, with AI.",
+      "subtitle": "I work with AI tools throughout the entire build — faster prototyping, faster iteration, faster delivery. Available for projects, products, and long-term partnerships.",
+      "viewWork": "View my work",
+      "letsTalk": "Let's talk"
+    },
+    "vibe": {
+      "label": "HOW I WORK",
+      "title": "Vibe coding: from prompt to product",
+      "subtitle": "I write the requirements, AI writes the code. I review, refine, and ship. Less time on boilerplate, more time solving the right problems.",
+      "point1": "AI-assisted from day one — design, code, and debug with Claude",
+      "point2": "Tight feedback loops — visible progress every day, not every sprint",
+      "point3": "Production-ready code — real deployment, not just demos",
+      "videoFallback": "Your browser does not support the video tag."
+    },
+    "products": {
+      "sectionTitle": "Products & projects",
+      "sectionSubtitle": "A selection of systems I've designed and built.",
+      "viewProject": "View project →",
+      "more": "More projects →",
+      "notecast": {
+        "subtitle": "Self-hosted personal note management system",
+        "description": "A self-hosted, single-user note management system with block-based EditorJS editor, multi-platform publishing to WeChat and Feishu, AI-powered translation, and workspace management. This portfolio runs on it.",
+        "statusLabel": "Active Dev"
+      },
+      "ims": {
+        "subtitle": "Construction site material inventory management",
+        "description": "Full-lifecycle inventory system for construction sites: procurement, multi-warehouse tracking, multi-level approval workflows, borrow/return management, and complete transaction audit trails.",
+        "statusLabel": "Completed"
+      },
+      "trainadmin": {
+        "subtitle": "SaaS platform for dance training institutions",
+        "description": "Multi-tenant SaaS platform for dance training institutions — class scheduling, student management, attendance tracking, payment processing, and instructor dashboards.",
+        "statusLabel": "Deployed"
+      }
+    },
+    "services": {
+      "sectionTitle": "How I can help you",
+      "sectionSubtitle": "Concrete services, not buzzwords.",
+      "more": "Full services & pricing →",
+      "productBuild": { "title": "Product Build", "description": "From idea to deployed product. I build full-stack web systems fast, using AI tools throughout. Typical timeline: 2-8 weeks." },
+      "aiIntegration": { "title": "AI Integration", "description": "Add AI capabilities to your existing system: intelligent search, document processing, chat assistants, or workflow automation." },
+      "businessSystems": { "title": "Business Systems", "description": "Internal tools and admin systems your team actually uses: approval workflows, dashboards, inventory, and process automation." },
+      "partnership": { "title": "Technical Partnership", "description": "Monthly engagement: ongoing development, maintenance, and priority support. Your technical partner without the full-time cost." },
+      "consulting": { "title": "Consulting & Review", "description": "Architecture review, tech stack selection, or a second opinion on your existing system. One-time engagement." }
+    },
+    "cta": {
+      "title": "Ready to start a project or just explore an idea?",
+      "description": "Tell me about what you want to build — I'll get back with thoughts and a realistic path forward.",
+      "btn": "Contact me"
+    },
+    "footer": { "copyright": "© 2024 UnibyteGlobal. All rights reserved." }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Let's talk about what you want to build. Whether you have a detailed plan or just an early idea, feel free to reach out."
+    },
+    "methods": {
+      "email": "Email",
+      "emailAddress": "your@email.com",
+      "emailNote": "Reply within 24–48h",
+      "twitter": "Twitter / X",
+      "twitterHandle": "@your_handle",
+      "twitterNote": "DMs open for business",
+      "linkedin": "LinkedIn",
+      "linkedinHandle": "linkedin.com/in/yourprofile",
+      "linkedinNote": "Connect for professional inquiries"
+    },
+    "form": {
+      "title": "Collaboration Request",
+      "name": "Your name",
+      "email": "Email",
+      "orgOptional": "Organization (optional)",
+      "summary": "Project summary",
+      "summaryPlaceholder": "A few sentences about your business and what you'd like to build...",
+      "uploadOptional": "Upload document (optional)",
+      "uploadLink": "Click or drag files here to upload",
+      "uploadHint": "Supported formats: PDF, Word, Excel, etc., single file not exceeding 10MB",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "note": "Thanks for reaching out. I'll review your message and documents and get back to you within 1-2 business days.",
+      "callText": "Prefer to schedule a call? I'm available for remote work.",
+      "bookCall": "Book a call"
+    },
+    "validation": {
+      "fileTooLarge": "File size must not exceed 10MB",
+      "fileType": "Unsupported file type. Supported: PDF, Word, Excel, PowerPoint, TXT",
+      "required": "Please fill in all required fields",
+      "emailInvalid": "Please enter a valid email address",
+      "success": "Your message has been sent successfully! I'll get back to you within 1-2 business days.",
+      "fail": "Submission failed, please try again later"
+    },
+    "modal": {
+      "title": "Book a call",
+      "subtitle": "Choose a time that works for you. The meeting will be held online.",
+      "poweredBy": "Bookings are powered by"
+    },
+    "footer": { "copyright": "© 2024 Developer's Name. All rights reserved." }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "What I can build for you",
+      "subtitle": "Concrete services from an AI-powered independent developer. I ship products fast, integrate AI into existing systems, and build the internal tools your team actually uses."
+    },
+    "cards": {
+      "coreBadge": "CORE SERVICE",
+      "productBuild": { "title": "Product Build", "desc": "From idea to deployed product. I build full-stack web systems fast, using AI tools throughout the entire process. Typical timeline: 2-8 weeks. Real examples: TrainAdmin (SaaS), IMS (inventory system), Notecast (note system)." },
+      "aiIntegration": { "title": "AI Integration", "desc": "Add AI capabilities to your existing system: intelligent search, document processing, chat assistants, automatic summarization, or workflow automation powered by Claude or OpenAI-compatible APIs." },
+      "businessSystems": { "title": "Business Systems", "desc": "Internal tools and admin systems your team actually uses: approval workflows, inventory management, dashboards, CRM modules, and process automation. Built for real teams, not demos." },
+      "partnership": { "title": "Technical Partnership", "desc": "Monthly engagement: ongoing development, bug fixes, maintenance, and priority support. Your dedicated technical partner — without the full-time cost. Good for startups and small teams without in-house developers." },
+      "consulting": { "title": "Consulting & Review", "desc": "Architecture review, tech stack selection, MVP roadmapping, or a second opinion on your existing system. One-time engagement with a written report or call summary." }
+    },
+    "proof": {
+      "label": "PROOF OF WORK",
+      "title": "Built & used in production",
+      "subtitle": "These aren't demo projects. They're systems I designed, built, and run myself — evidence that the services above work in practice.",
+      "notecast": {
+        "type": "Self-hosted · Personal Product",
+        "status": "Active Dev",
+        "sub": "Self-hosted personal note management system",
+        "desc": "A self-hosted note management system I built for myself and use daily. Demonstrates: JWT authentication, block-based rich text editing (EditorJS), third-party publishing APIs (WeChat, Feishu), AI integration (Claude), workspace management, and a full Spring Boot + Nuxt.js production stack. This portfolio website runs on it."
+      },
+      "ims": {
+        "type": "Web Application · Personal Product",
+        "status": "Completed",
+        "sub": "Construction site material inventory management",
+        "desc": "A full-lifecycle inventory system built for a real construction project. Demonstrates: complex multi-table relational data modeling, multi-level approval workflow design, role-based access control, Docker deployment, and a production-grade admin UI. Complete from requirements to deployment."
+      },
+      "tags": {
+        "webDev": "Web System Dev",
+        "backend": "Backend & Architecture",
+        "ai": "AI Integration",
+        "api": "API Development",
+        "consulting": "System Consulting",
+        "automation": "Custom Automation"
+      }
+    },
+    "process": {
+      "title": "How collaboration works",
+      "step1": { "title": "Call & Scope", "desc": "We discuss your project goals, challenges, and requirements to define the scope." },
+      "step2": { "title": "Plan & Prototype", "desc": "A detailed plan, timeline, and interactive prototypes are created for your review." },
+      "step3": { "title": "Build & Test", "desc": "Development begins with regular updates and rigorous testing to ensure quality." },
+      "step4": { "title": "Launch & Improve", "desc": "After a successful launch, we monitor performance and plan future enhancements." }
+    },
+    "pricing": {
+      "title": "Pricing Models",
+      "fixed": { "title": "Fixed-price for well-defined projects", "desc": "Best for projects with clear scope and deliverables. You get a fixed quote upfront with no surprises." },
+      "hourly": { "title": "Hourly rate for small tasks & consulting", "desc": "Flexible option for smaller tasks, maintenance work, or consulting sessions. Pay only for the time spent." },
+      "retainer": { "title": "Monthly retainer for long-term cooperation", "desc": "Ongoing support and development with predictable monthly costs. Priority support and dedicated availability." }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about working with me",
+      "items": [
+        { "q": "How long does a typical project take?", "a": "Project timelines vary based on scope and complexity. A simple website might take 2-4 weeks, while a full SaaS application can take 2-4 months. I provide detailed timeline estimates during our initial consultation." },
+        { "q": "Do you work with international clients?", "a": "Yes! I work with clients worldwide. I'm experienced in remote collaboration and can adapt to different time zones. All communication is handled via email, video calls, and project management tools." },
+        { "q": "What technologies do you specialize in?", "a": "I specialize in Vue.js, Nuxt.js, Node.js, and PHP for web development. For mobile apps, I use UniApp. I also have extensive experience with databases (MySQL, MongoDB), Docker, and cloud deployment." },
+        { "q": "Do you provide ongoing support after project completion?", "a": "Yes, I offer maintenance and support packages. This includes bug fixes, security updates, feature enhancements, and technical support. We can arrange monthly retainer agreements for ongoing needs." },
+        { "q": "What is your payment structure?", "a": "For fixed-price projects, I typically require 30% upfront, 40% at midpoint, and 30% upon completion. For hourly or retainer work, billing is done monthly. All terms are clearly outlined in our contract." },
+        { "q": "Can you help with existing projects or only new ones?", "a": "I can definitely help with existing projects! Whether you need bug fixes, new features, performance optimization, or a complete refactor, I'm happy to jump in and contribute to your existing codebase." },
+        { "q": "Do you sign NDAs and work on confidential projects?", "a": "Absolutely. I understand the importance of confidentiality and am happy to sign NDAs before we begin discussing your project. Your intellectual property and business information are always kept secure." },
+        { "q": "What information do you need to provide a quote?", "a": "To provide an accurate quote, I need to understand your project requirements, target audience, desired features, timeline, and budget range. The more detailed your requirements, the more accurate my estimate will be." }
+      ]
+    },
+    "cta": {
+      "title": "Have a Project in Mind?",
+      "desc": "Let's discuss your requirements and see how I can help you achieve your goals.",
+      "btn": "Book a Free Consultation"
+    },
+    "footer": { "copyright": "© 2024 Developer's Name. All rights reserved." }
+  },
+  "projectsPage": {
+    "hero": {
+      "title": "Projects & Products",
+      "subtitle": "A collection of client work and indie-built products — real systems designed, built, and shipped."
+    },
+    "ownProducts": {
+      "label": "SELF-BUILT",
+      "title": "My own products"
+    },
+    "notecast": {
+      "type": "Self-hosted · Personal Product",
+      "status": "Active Dev",
+      "sub": "Self-hosted personal note management system",
+      "desc": "A self-hosted, single-user note management system. Features a block-based EditorJS editor, multi-platform publishing to WeChat and Feishu, AI-powered translation, workspace management, and the infrastructure behind this portfolio site. Available for licensing."
+    },
+    "ims": {
+      "type": "Web Application · Personal Product",
+      "status": "Completed",
+      "sub": "Construction site material inventory management",
+      "desc": "A comprehensive inventory system for construction and renovation sites. Handles full material lifecycle: procurement, multi-warehouse tracking, multi-level approval workflows, borrow/return management, and complete transaction audit trails."
+    },
+    "filter": {
+      "placeholder": "Search projects by name, description or tech stack...",
+      "count": "{n} projects",
+      "all": "All",
+      "catWeb": "Web Application",
+      "catSaas": "SaaS Platform",
+      "catMobile": "Mobile App",
+      "catAi": "AI-powered"
+    },
+    "grid": {
+      "loading": "Loading projects...",
+      "empty": "No projects to show yet.",
+      "viewDetails": "View details",
+      "noDescription": "No description provided yet."
+    },
+    "footer": { "copyright": "© 2024 UnibyteGlobal. All rights reserved." }
+  },
+  "notesPage": {
+    "search": { "placeholder": "Search notes by keyword..." },
+    "filter": { "all": "All" },
+    "error": {
+      "loginRequired": "Please log in to view notes",
+      "notFound": "No notes found",
+      "loadFailed": "Failed to load, please try again",
+      "invalidId": "Invalid note ID, cannot open",
+      "retry": "Retry"
+    },
+    "empty": {
+      "noSearch": "No notes containing \"{keyword}\"",
+      "noDate": "No notes for {date}",
+      "noTag": "No notes under this tag",
+      "noNotes": "No notes yet",
+      "clearDate": "Clear date filter",
+      "createNote": "Create New Note"
+    },
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "info": "Page {page} of {total}",
+      "total": "({count} records total)"
+    },
+    "time": {
+      "justNow": "Just now",
+      "minutesAgo": "{n}m ago",
+      "hoursAgo": "{n}h ago",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "twoDaysAgo": "2 days ago",
+      "daysAgo": "{n} days ago",
+      "weeksAgo": "{n}w ago",
+      "monthsAgo": "{n}mo ago"
+    }
+  }
+}
