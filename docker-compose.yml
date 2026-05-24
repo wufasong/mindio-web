@@ -1,0 +1,48 @@
+services:
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: mindio
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    image: eclipse-temurin:17-jre-alpine
+    restart: unless-stopped
+    working_dir: /app
+    command: java -jar mindio-server.jar --spring.profiles.active=prod
+    volumes:
+      - ./server/mindio-server.jar:/app/mindio-server.jar
+      - uploads_data:/app/uploads
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/mindio?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+      DB_USERNAME: ${DB_USERNAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET}
+      WORKNOTES_UPLOAD_PATH: /app/uploads
+      WORKNOTES_UPLOAD_URL_PREFIX: ${SITE_URL}/api
+      WORKNOTES_FRONTEND_BASE_URL: ${SITE_URL}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-80}:80"
+    depends_on:
+      - server
+
+volumes:
+  db_data:
+  uploads_data:

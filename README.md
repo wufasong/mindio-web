@@ -25,9 +25,14 @@ MindIO is a self-hostable personal workspace that combines note-taking, AI analy
 
 ---
 
-## Getting Started
+## Self-Hosting (Docker)
 
-This repository contains the **open source frontend**. You will need the backend server to use the full system.
+The easiest way to run MindIO on your own server.
+
+### Requirements
+
+- Docker & Docker Compose
+- A server or VPS (1GB RAM minimum)
 
 ### 1. Clone the repo
 
@@ -36,37 +41,60 @@ git clone https://github.com/wufasong/mindio-web.git
 cd mindio-web
 ```
 
-### 2. Install dependencies
+### 2. Download the backend JAR
+
+Download `mindio-server.jar` from the [latest release](https://github.com/wufasong/mindio-web/releases/latest) and place it in the `server/` folder:
+
+```bash
+# Example
+mv mindio-server-1.0.0.jar server/mindio-server.jar
+```
+
+### 3. Configure environment
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` and set your passwords and site URL.
+
+### 4. Start
+
+```bash
+docker compose up -d
+```
+
+MindIO will be available at `http://localhost` (or your configured port).
+
+---
+
+## Development
+
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure environment
-
-Create a `.env` file:
+### Configure environment
 
 ```env
-API_BASE_URL=http://your-backend-server/api
+API_BASE_URL=http://localhost:8080/api
 ```
 
-### 4. Run development server
+### Run development server
 
 ```bash
 npm run dev
-```
-
-### 5. Build for production
-
-```bash
-npm run generate
 ```
 
 ---
 
 ## Backend
 
-The backend server (Java / Spring Boot) is **not open source**, but the full source code is available for purchase.
+The backend server (Java / Spring Boot) is free to use via the pre-built JAR (see Self-Hosting above).
+
+The full source code is available for purchase — useful if you want to customize or self-compile.
 
 **What you get:**
 - Full backend source code (ZIP)
@@ -84,4 +112,4 @@ Upgrade pricing: $19–$29 for future versions (using your unique key).
 
 The frontend (this repository) is licensed under the [Apache License 2.0](LICENSE).
 
-The backend source code is proprietary and sold separately.
+The backend JAR is free to use for self-hosting. The backend source code is proprietary and sold separately.
