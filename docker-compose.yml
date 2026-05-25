@@ -16,12 +16,11 @@ services:
       retries: 5
 
   server:
-    image: eclipse-temurin:17-jre-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile.server
     restart: unless-stopped
-    working_dir: /app
-    command: java -jar mindio-server.jar --spring.profiles.active=prod
     volumes:
-      - ./server/mindio-server.jar:/app/mindio-server.jar
       - uploads_data:/app/uploads
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/mindio?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
