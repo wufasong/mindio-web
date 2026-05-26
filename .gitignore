@@ -102,8 +102,6 @@ typings/
 .DS_Store
 Thumbs.db
 
-# Server JAR (download from GitHub Releases)
-server/*.jar
 .env
 
 # Nuxt generate

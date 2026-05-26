@@ -48,16 +48,7 @@ git clone https://github.com/wufasong/mindio-web.git
 cd mindio-web
 ```
 
-### 2. Download the backend JAR
-
-Download `mindio-server.jar` from the [latest release](https://github.com/wufasong/mindio-web/releases/latest) and place it in the `server/` folder:
-
-```bash
-# Example
-mv mindio-server-1.0.0.jar server/mindio-server.jar
-```
-
-### 3. Configure environment
+### 2. Configure environment
 
 ```bash
 cp .env.example .env
@@ -65,7 +56,7 @@ cp .env.example .env
 
 Edit `.env` and set your passwords and site URL.
 
-### 4. Start
+### 3. Start
 
 ```bash
 docker compose up -d
