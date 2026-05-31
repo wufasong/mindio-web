@@ -76,9 +76,9 @@ spec:
           SPRING_DATASOURCE_URL:
             default: "jdbc:mysql://${MYSQL_HOST}:${MYSQL_PORT}/${MYSQL_DATABASE}?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
           DB_USERNAME:
-            default: ${MYSQL_USER}
+            default: mindio
           DB_PASSWORD:
-            default: ${MYSQL_PASSWORD}
+            default: ${DB_PASSWORD}
           JWT_SECRET:
             default: ${JWT_SECRET}
           WORKNOTES_UPLOAD_PATH:
