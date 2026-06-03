@@ -28,7 +28,6 @@ MindIO is a self-hostable personal workspace that combines note-taking, AI analy
 ## One-Click Deploy
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/SfA56e?referralCode=GbJJAR)
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/new?template=https://github.com/wufasong/mindio-web)
 
 ---
 
